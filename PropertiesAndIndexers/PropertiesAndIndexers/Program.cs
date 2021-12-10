@@ -10,6 +10,7 @@ namespace PropertiesAndIndexers
                 new MyColllectionOfIntegers(new[] { 1, 2, 3, 4 });
 
             int min = collection.Min();
+            collection[0]
         }
     }
 }

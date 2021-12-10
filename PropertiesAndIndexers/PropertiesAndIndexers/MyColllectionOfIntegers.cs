@@ -26,6 +26,14 @@ namespace PropertiesAndIndexers
             }
         }
 
+        public int this[int index]
+        {
+            get
+            {
+                return _array[index];
+            }
+        }
+
         public int Min()
         {
             if (_array.Length == 0)
