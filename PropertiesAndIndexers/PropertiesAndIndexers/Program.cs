@@ -11,6 +11,12 @@ namespace PropertiesAndIndexers
 
             int min = collection.Min();
             int element = collection[0];
+
+            Address address = new Address();
+            address.City = "Oradea";
+            address.PostalCode = "123";
+
+            Console.WriteLine(address["city"]);
         }
     }
 }

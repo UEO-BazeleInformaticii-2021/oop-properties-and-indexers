@@ -32,6 +32,10 @@ namespace PropertiesAndIndexers
             {
                 return _array[index];
             }
+            set
+            {
+                _array[index] = value;
+            }
         }
 
         public int Min()
