@@ -6,7 +6,10 @@ namespace PropertiesAndIndexers
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            MyColllectionOfIntegers collection = 
+                new MyColllectionOfIntegers(new[] { 1, 2, 3, 4 });
+
+            int min = collection.Min();
         }
     }
 }
